@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #453c33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    color: white;
+    display: flex;
+    gap: 100px;
+}
+
+.human {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #EAEAEA;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+}
+
+.computer {
+    display: flex;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #EAEAEA;
+    flex-direction: column;
+    padding: 30px;
+    width: 50%;
+}
+
+.resultContainer {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
